@@ -118,7 +118,16 @@ footer{
     margin-top: -30px;
     font-size: 25px;
 }
+@media only screen and (max-width:992px) {
 
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .login{
+        position: relative;
+        left: 93%;
+    }
+}
 @media only screen and (max-width:689px) {
     .welcome-text{
         font-size: 0.9em;
@@ -129,10 +138,54 @@ footer{
     .grid{
         grid-template-columns: 1fr;
     }
-}
-@media only screen and (max-width:992px) {
-
-    .grid{
-        grid-template-columns: 1fr 1fr;
+    .login{
+        position: relative;
+        left: 90%;
     }
+}
+
+.extra-section1{
+    padding-left: 40px;
+    display: flex;
+    height: 650px;
+    background: linear-gradient(45deg, white, rgb(16, 209, 223));
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.extra-101{
+    font-size: 35px;
+    width: 50%;
+}
+.extra-102{
+    width: 50%;
+}
+.extra-section2{
+    padding-left: 40px;
+    display: flex;
+    height: 650px;
+    background: linear-gradient(45deg, rgb(16, 209, 223), white);
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.extra-201{
+    font-size: 35px;
+    width: 50%;
+}
+.extra-202{
+    width: 50%;
+}
+td,th{
+    border: 2px solid rgb(15, 219, 226);
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+table{
+    background:linear-gradient(45deg, white, rgb(0, 255, 234) );
+    font-weight: 700;
+    font-size: 2em;
+    border-collapse: collapse;
 }
